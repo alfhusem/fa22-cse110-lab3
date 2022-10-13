@@ -7,15 +7,15 @@
   </head>
   <body>
       <header>
-          <h1>Header</h1>
+          <h1>Meeting minutes</h1>
       </header>
       <main>
-          <h1>Main stuff</h1>
+          <h2>:)</h2>
 
           <hr>
 
           <div>
-            <h3><em>Just</em> a div</h2>
+            <h3><em>Just</em> a div</h3>
             <p><i>with some text</i><br>nothing special</p>
           </div>
 
@@ -35,13 +35,15 @@
 
       </main>
       <section>
-          <h2>Section</h1>
+          <h2>Section</h2>
             <a href="https://www.youtube.com">YouTube</a>
             <img src="tomie.jpg" alt="Tomie" width="500" height="600">
+            <video src="missing"></video>
+            <audio src="missing"></audio>
             <details>
                 <summary>Tomie</summary>
-                <p>Junji Ito's first manga</p>
-              </details>
+                <p>Junji Ito's first work</p>
+            </details>
       </section>
       <nav>
         <a href="/python/">Python</a>
@@ -49,13 +51,30 @@
 
       <form>
         <fieldset>
-            <label for="fname">First name:</label>
+            <label>First name:</label>
             <input type="text" id="fname" name="fname"><br><br>
-            <label for="lname">Misc:</label>
+            <label>Did you meet today:</label>
             <input type="checkbox" id="yes" name="yes"><br><br>
+            <label>When?<br></label>
+            <label>Before noon</label>
             <input type="radio" value="hmmm">
+            <label>After noon</label>
+            <input type="radio" value="hmmmmmmm">
+            <br>
             <input type="date">
         </fieldset>
+        <datalist id="Tired?">
+            <option value="yes">
+            <option value="no">
+          </datalist>
+        <select name="fruit" id="fruit">
+            <option value="apple">Nice meeting</option>
+            <option value="orange">Horrible...</option>
+        </select>
+        <button type="button">This does nothing <i>(yet)</i></button>
+        <br>
+        <textarea rows="4" cols="50">Please give your suggestions for what this button should do.
+        </textarea>
         
       </form>
 
