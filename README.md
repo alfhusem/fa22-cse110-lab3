@@ -1,3 +1,3 @@
 # Lab 2 - Starter
 
-https://alfhusem.github.io/Lab2_Starter/
+https://alfhusem.github.io/fa22-cse110-lab3
